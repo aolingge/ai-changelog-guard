@@ -49,6 +49,14 @@ npx github:aolingge/ai-changelog-guard --path CHANGELOG.md --sarif > results.sar
 | verification | Mentions verification. |
 | breaking | Mentions breaking changes or compatibility. |
 
+
+## Quality Gate
+
+Use this project as a repeatable gate before an AI agent marks work as done:
+
+- [Quality gate guide](docs/quality-gates.md)
+- [Copy-ready GitHub Actions example](examples/github-action.yml)
+
 ## CI Usage
 
 See [docs/github-actions.md](docs/github-actions.md).
