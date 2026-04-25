@@ -1,0 +1,3 @@
+# v0.1.1
+
+AI-assisted docs update. Verification: npm test and CI. Breaking changes: none. Migration: not needed.

@@ -1,0 +1,38 @@
+{
+  "name": "ai-changelog-guard",
+  "version": "0.1.0",
+  "description": "Check changelogs for AI-assisted changes, verification evidence, breaking changes, and release links.",
+  "type": "module",
+  "bin": {
+    "ai-changelog-guard": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "files": [
+    "src",
+    "fixtures",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "changelog",
+    "ai-assisted",
+    "release-notes",
+    "open-source",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/ai-changelog-guard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/ai-changelog-guard/issues"
+  },
+  "homepage": "https://github.com/aolingge/ai-changelog-guard"
+}
